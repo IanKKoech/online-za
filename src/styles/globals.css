@@ -31,3 +31,8 @@ body {
     text-wrap: balance;
   }
 }
+
+.placeholder-left::placeholder {
+  text-align: left;
+}
+
