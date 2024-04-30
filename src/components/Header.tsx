@@ -27,7 +27,7 @@ const Header = () => {
           Contact Us
         </a>
         <button
-          className="bg-[white] text-[#4bc74b] text-sm hover:bg-[#4bc74b] hover:text-white"
+          className="bg-[white] text-[#4bc74b] text-sm hover:bg-green-300 hover:text-white"
           style={{
             borderRadius: "9.5rem",
             height: "2.5rem",
@@ -39,7 +39,7 @@ const Header = () => {
         </button>
 
         <button
-          className="bg-[#4bc74b] text-[#000000c4] text-sm hover:bg-[#3aa53a] hover:text-white"
+          className="bg-green-300 text-[#000000c4] text-sm hover:bg-[#3aa53a] hover:text-white"
           style={{
             borderRadius: "4.5rem",
             height: "2.5rem",

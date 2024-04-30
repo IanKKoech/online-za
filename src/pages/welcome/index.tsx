@@ -273,7 +273,7 @@ const WelcomePage = () => {
         <br></br>
         <br></br>
         <p className="text-center align-middle text-3xl text-black font-light">
-          Still on the fence, heree&rsquo;s what <br></br>{" "}
+          Still on the fence, here&rsquo;s what <br></br>{" "}
           <span className="text-green-400">our users</span> are saying
         </p>
         <Testimonials />
