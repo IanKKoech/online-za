@@ -183,7 +183,7 @@ const WelcomePage = () => {
         <br></br>
         <br />
         <p className="text-gray-700 text-center text-pretty text-0xl font-light">
-          We're all looking for simpler and easier ways to manage our finances.
+          We&lsquo;re all looking for simpler and easier ways to manage our finances.
         </p>
         <p className="text-gray-700 text-center text-pretty text-2rem font-light">
           We do just that, for you.
@@ -244,7 +244,7 @@ const WelcomePage = () => {
         </p>
         <br></br>
         <p className="text-black text-center align-middle text-2xl font-light ">
-          We've made paying your account as easy as possible so that you can{" "}
+          We&lsquo;ve made paying your account as easy as possible so that you can{" "}
           <br></br>
           make a payment wherever you are.
         </p>
@@ -274,7 +274,7 @@ const WelcomePage = () => {
         <br></br>
         <br></br>
         <p className="text-center align-middle text-3xl text-black font-light">
-          Still on the fence, here's what <br></br>{" "}
+          Still on the fence, heree&rsquo;s what <br></br>{" "}
           <span className="text-green-400">our users</span> are saying
         </p>
         <Testimonials />
