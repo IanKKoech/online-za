@@ -36,3 +36,113 @@ body {
   text-align: left;
 }
 
+/* Example CSS media queries */
+@media screen and (max-width: 768px) {
+  /* Styles for screens up to 768px wide (iPad Air size) */
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .h-screen {
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .flex {
+    flex-direction: row; /* Keep elements in a row */
+  }
+  
+  .pl-80,
+  .pr-80 {
+    padding-left: 2rem; /* Adjust padding as needed */
+    padding-right: 2rem; /* Adjust padding as needed */
+  }
+  
+  .pl-36 {
+    padding-left: 1rem; /* Adjust padding as needed */
+  }
+  
+  .w-96 {
+    width: auto; /* Auto width on larger screens */
+  }
+  
+  /* Adjust sizes for specific elements */
+  .rounded-lg {
+    border-radius: 0.5rem; /* Adjust border radius as needed */
+  }
+  
+  .block {
+    max-width: 18rem; /* Adjust maximum width as needed */
+  }
+  
+  .text-base {
+    font-size: 1rem; /* Adjust font size as needed */
+  }
+
+  /* Reset text sizes */
+  .text-3xl, .text-2xl {
+    font-size: initial; /* Reset font sizes */
+  }
+
+  /* Reset image sizes */
+  img {
+    max-width: initial; /* Reset image max-width */
+    height: initial; /* Reset image height */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Styles for screens up to 480px wide (Mobile size) */
+  .bg-cover {
+    background-size: cover;
+  }
+  
+  .h-screen {
+    height: auto; /* Adjust height as needed */
+  }
+  
+  .flex {
+    flex-direction: column; /* Stack elements vertically */
+  }
+  
+  .pl-80,
+  .pr-80 {
+    padding-left: 1rem; /* Adjust padding as needed */
+    padding-right: 1rem; /* Adjust padding as needed */
+  }
+  
+  .pl-36 {
+    padding-left: 0.5rem; /* Adjust padding as needed */
+  }
+  
+  .w-96 {
+    width: 100%; /* Full width on smaller screens */
+  }
+  
+  /* Adjust sizes for specific elements */
+  .rounded-lg {
+    border-radius: 0.2rem; /* Adjust border radius as needed */
+  }
+  
+  .block {
+    max-width: 90%; /* Adjust maximum width as needed */
+  }
+  
+  .text-base {
+    font-size: 0.8rem; /* Adjust font size as needed */
+  }
+  
+  /* Reduce text sizes */
+  .text-3xl {
+    font-size: 1.5rem; /* Adjust font size for heading */
+  }
+
+  .text-2xl {
+    font-size: 1.2rem; /* Adjust font size for paragraph */
+  }
+
+  /* Reduce image sizes */
+  img {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+}

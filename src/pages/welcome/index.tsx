@@ -19,7 +19,7 @@ import ozow from "../../../public/assets/FIN Welcome Page Assets/LOGOS/Asset 16@
 
 const WelcomePage = () => {
   return (
-    <div className="ml-16 mr-16">
+    <div>
       <div className="font-poppins p-0">
         <Header />
         <div
