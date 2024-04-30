@@ -1,5 +1,6 @@
 import { useState } from "react";
 import darkModeIcon from "../../public/assets/FIN Welcome Page Assets/dark-mode 1.png";
+// import { Button } from "./Button/Button";
 import { Button } from "fin-ui";
 import logo from "../../public/assets/FIN Welcome Page Assets/Fin Logo (1).png";
 
@@ -27,19 +28,20 @@ const Header = () => {
         <a href="#" className="text-sm font-small">
           Contact Us
         </a>
-        <Button
-          className="bg-[white] text-[#4bc74b] border-[green] text-sm"
+        <button
+          className="bg-[white] text-[#4bc74b] text-sm hover:bg-[#4bc74b] hover:text-white"
           style={{
-            borderRadius: "4.5rem",
+            borderRadius: "9.5rem",
             height: "2.5rem",
-            width: "8rem", 
+            width: "8rem",
+            border: "2px solid #4bc74b",
           }}
         >
           Register
-        </Button>
+        </button>
 
-        <Button
-          className="bg-[#4bc74b] text-[#000000c4] text-sm"
+        <button
+          className="bg-[#4bc74b] text-[#000000c4] text-sm hover:bg-[#3aa53a] hover:text-white"
           style={{
             borderRadius: "4.5rem",
             height: "2.5rem",
@@ -47,7 +49,8 @@ const Header = () => {
           }}
         >
           Sign In
-        </Button>
+        </button>
+
         <button
           className="mr-4 text-sm"
           style={{ width: "38px", height: "30px" }}

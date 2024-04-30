@@ -1,6 +1,6 @@
-import Header from "@/components/Header";
-import Testimonials from "@/components/Testomonials";
-import Footer from "@/components/Footer";
+import Header from "../../components/Header";
+import Testimonials from "../../components/Testomonials";
+import Footer from "../../components/Footer";
 import personalLoans from "../../../public/assets/FIN Welcome Page Assets/Slider Images/pexels-terje-sollie-313707 1.png";
 import medicalLoans from "../../../public/assets/FIN Welcome Page Assets/Slider Images/pexels-roger-brown-5125690 1.png";
 import homeImprovement from "../../../public/assets/FIN Welcome Page Assets/Slider Images/Protect-Your-Family-Against-the-Financial-Risk-of-an-RDP-House 1.png";
@@ -16,7 +16,6 @@ import FNB from "../../../public/assets/FIN Welcome Page Assets/LOGOS/Asset 13@4
 import Snap from "../../../public/assets/FIN Welcome Page Assets/LOGOS/Asset 14@4x-8.png";
 import payfast from "../../../public/assets/FIN Welcome Page Assets/LOGOS/Asset 15@4x-8.png";
 import ozow from "../../../public/assets/FIN Welcome Page Assets/LOGOS/Asset 16@4x-8.png";
-import { Text } from "fin-ui";
 
 const WelcomePage = () => {
   return (
@@ -99,9 +98,9 @@ const WelcomePage = () => {
                 <img className="rounded-t-lg" src={personalLoans.src} alt="" />
               </div>
               <div className="p-6">
-                <Text className="text-base" transform="capitalize">
+                <p className="text-base">
                   Personal Loans
-                </Text>
+                </p>
               </div>
             </div>
             <div className="lock max-w-[18rem] rounded-lg bg-blue-950 text-white shadow-secondary-1 dark:bg-surface-dark dark:text-white mr-4">
@@ -109,9 +108,9 @@ const WelcomePage = () => {
                 <img className="rounded-t-lg" src={medicalLoans.src} alt="" />
               </div>
               <div className="p-6">
-                <Text tranform="capitalize" color="black">
+                <p className=" text-base">
                   Medical Loans
-                </Text>
+                </p>
               </div>
             </div>
             <div className="lock max-w-[18rem] rounded-lg bg-blue-950 text-white shadow-secondary-1 ">
@@ -123,9 +122,9 @@ const WelcomePage = () => {
                 />
               </div>
               <div className="p-6">
-                <Text transform="capitalize" color="black">
+                <p className="text-base">
                   Home Improvement Loans
-                </Text>
+                </p>
               </div>
             </div>
           </div>
