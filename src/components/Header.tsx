@@ -1,7 +1,5 @@
 import { useState } from "react";
 import darkModeIcon from "../../public/assets/FIN Welcome Page Assets/dark-mode 1.png";
-// import { Button } from "./Button/Button";
-import { Button } from "fin-ui";
 import logo from "../../public/assets/FIN Welcome Page Assets/Fin Logo (1).png";
 
 const Header = () => {
