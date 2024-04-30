@@ -191,18 +191,28 @@ const WelcomePage = () => {
         <br></br>
         <br></br>
         <div className="flex justify-center gap-16">
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mr-100">
+            {" "}
+            {/* Added mr-4 for right margin */}
             <div className="w-16 h-16 rounded-full flex justify-center items-center">
-              <img src={applyOnline.src} alt="Icon 1" className="h-15 w-20" />
+              <img
+                src={applyOnline.src}
+                alt="Icon 1"
+                className="h-15 w-20 ml-20"
+              />
             </div>
             <p className="mt-2 text-gray-600">Apply Online</p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mr-100">
+            {" "}
+            {/* Added mr-4 for right margin */}
             <div className="w-8 h-16 rounded-full flex justify-center items-center">
               <img src={arrow1.src} alt="Icon 2" className="h-5 w-6" />
             </div>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mr-100">
+            {" "}
+            {/* Added mr-4 for right margin */}
             <div className="w-16 h-16 rounded-full flex justify-center items-center">
               <img src={icon11.src} alt="Icon 2" className="h-15 w-12" />
             </div>
@@ -210,7 +220,9 @@ const WelcomePage = () => {
               Manage your <br /> account
             </p>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center mr-100">
+            {" "}
+            {/* Added mr-4 for right margin */}
             <div className="w-8 h-16 rounded-full flex justify-center items-center">
               <img src={arrow1.src} alt="Icon 3" className="h-5 w-6" />
             </div>
@@ -238,43 +250,23 @@ const WelcomePage = () => {
         </p>
         <br></br>
         <br></br>
-        {/* <div>
-          <div className="flex items-center justify-center">
-            <div className="flex">
-              <div className="relative">
-                <img
-                  src={FNB.src}
-                  alt="Image 1"
-                  className="w-24 h-24 object-cover"
-                />
-                <div className="absolute inset-0 border border-r-0 border-gray-300"></div>
-              </div>
-              <div className="relative">
-                <img
-                  src={Snap.src}
-                  alt="Image 2"
-                  className="w-24 h-24 object-cover"
-                />
-                <div className="absolute inset-0 border border-r-0 border-gray-300"></div>
-              </div>
-              <div className="relative">
-                <img
-                  src={payfast.src}
-                  alt="Image 3"
-                  className="w-24 h-24 object-cover"
-                />
-                <div className="absolute inset-0 border border-r-0 border-gray-300"></div>
-              </div>
-              <div className="relative">
-                <img
-                  src={ozow.src}
-                  alt="Image 4"
-                  className="w-24 h-24 object-cover"
-                />
-              </div>
-            </div>
+        <div className="flex items-center justify-center">
+          <div className="ml-5 mr-10">
+            <img src={FNB.src} alt="FNB" className="h-16 w-auto" />
           </div>
-        </div> */}
+
+          <div className="ml-10 mr-10">
+            <img src={Snap.src} alt="Snap" className="h-14 w-auto" />
+          </div>
+
+          <div className="ml-10 mr-10">
+            <img src={payfast.src} alt="PayFast" className="h-14 w-auto" />
+          </div>
+
+          <div className="ml-10 mr-10">
+            <img src={ozow.src} alt="Ozow" className="h-14 w-auto" />
+          </div>
+        </div>
       </div>
 
       <div className="bg-white pt-4 pb-4">

@@ -43,7 +43,7 @@ const Header = () => {
           style={{
             borderRadius: "4.5rem",
             height: "2.5rem",
-            width: "6rem",
+            width: "8rem",
           }}
         >
           Sign In
